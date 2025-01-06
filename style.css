@@ -440,6 +440,7 @@ footer p {
   padding-left: 10%;
   padding-right: 10%;
   padding-top: 8%;
+  text-align: justify;
 }
 
 .project-grid {
