@@ -441,3 +441,34 @@ footer p {
   padding-right: 10%;
   padding-top: 8%;
 }
+
+.project-grid {
+  display: flex;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.project-card {
+  flex: 1;
+  max-width: calc(50% - 1rem);
+}
+
+.project-image-container {
+  width: 100%;
+}
+
+.project-image-container img {
+  width: 100%;
+  height: auto;
+}
+
+/* Make it responsive for mobile devices */
+@media (max-width: 768px) {
+  .project-grid {
+    flex-direction: column;
+  }
+  
+  .project-card {
+    max-width: 100%;
+  }
+}
